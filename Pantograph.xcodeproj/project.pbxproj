@@ -12,6 +12,7 @@
 		5543ADFF1A43749200877634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5543ADFE1A43749200877634 /* Images.xcassets */; };
 		5543AE021A43749200877634 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5543AE001A43749200877634 /* MainMenu.xib */; };
 		5543AE0E1A43749200877634 /* PantographTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5543AE0D1A43749200877634 /* PantographTests.m */; };
+		5543AE191A4374DB00877634 /* PantographView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5543AE181A4374DB00877634 /* PantographView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		5543AE071A43749200877634 /* PantographTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantographTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5543AE0C1A43749200877634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5543AE0D1A43749200877634 /* PantographTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PantographTests.m; sourceTree = "<group>"; };
+		5543AE171A4374DB00877634 /* PantographView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PantographView.h; sourceTree = "<group>"; };
+		5543AE181A4374DB00877634 /* PantographView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PantographView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				5543ADFE1A43749200877634 /* Images.xcassets */,
 				5543AE001A43749200877634 /* MainMenu.xib */,
 				5543ADF71A43749200877634 /* Supporting Files */,
+				5543AE171A4374DB00877634 /* PantographView.h */,
+				5543AE181A4374DB00877634 /* PantographView.m */,
 			);
 			path = Pantograph;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5543AE191A4374DB00877634 /* PantographView.m in Sources */,
 				5543ADFD1A43749200877634 /* main.m in Sources */,
 				5543ADFB1A43749200877634 /* AppDelegate.m in Sources */,
 			);
