@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5543ADFB1A43749200877634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5543ADFA1A43749200877634 /* AppDelegate.m */; };
+		5543ADFD1A43749200877634 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5543ADFC1A43749200877634 /* main.m */; };
+		5543ADFF1A43749200877634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5543ADFE1A43749200877634 /* Images.xcassets */; };
+		5543AE021A43749200877634 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5543AE001A43749200877634 /* MainMenu.xib */; };
+		5543AE0E1A43749200877634 /* PantographTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5543AE0D1A43749200877634 /* PantographTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5543AE081A43749200877634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5543ADEC1A43749100877634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5543ADF31A43749100877634;
+			remoteInfo = Pantograph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5543ADF41A43749100877634 /* Pantograph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pantograph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5543ADF81A43749200877634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5543ADF91A43749200877634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5543ADFA1A43749200877634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5543ADFC1A43749200877634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5543ADFE1A43749200877634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5543AE011A43749200877634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5543AE071A43749200877634 /* PantographTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantographTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5543AE0C1A43749200877634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5543AE0D1A43749200877634 /* PantographTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PantographTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5543ADF11A43749100877634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5543AE041A43749200877634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5543ADEB1A43749100877634 = {
+			isa = PBXGroup;
+			children = (
+				5543ADF61A43749100877634 /* Pantograph */,
+				5543AE0A1A43749200877634 /* PantographTests */,
+				5543ADF51A43749100877634 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5543ADF51A43749100877634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5543ADF41A43749100877634 /* Pantograph.app */,
+				5543AE071A43749200877634 /* PantographTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5543ADF61A43749100877634 /* Pantograph */ = {
+			isa = PBXGroup;
+			children = (
+				5543ADF91A43749200877634 /* AppDelegate.h */,
+				5543ADFA1A43749200877634 /* AppDelegate.m */,
+				5543ADFE1A43749200877634 /* Images.xcassets */,
+				5543AE001A43749200877634 /* MainMenu.xib */,
+				5543ADF71A43749200877634 /* Supporting Files */,
+			);
+			path = Pantograph;
+			sourceTree = "<group>";
+		};
+		5543ADF71A43749200877634 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5543ADF81A43749200877634 /* Info.plist */,
+				5543ADFC1A43749200877634 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5543AE0A1A43749200877634 /* PantographTests */ = {
+			isa = PBXGroup;
+			children = (
+				5543AE0D1A43749200877634 /* PantographTests.m */,
+				5543AE0B1A43749200877634 /* Supporting Files */,
+			);
+			path = PantographTests;
+			sourceTree = "<group>";
+		};
+		5543AE0B1A43749200877634 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5543AE0C1A43749200877634 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5543ADF31A43749100877634 /* Pantograph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5543AE111A43749200877634 /* Build configuration list for PBXNativeTarget "Pantograph" */;
+			buildPhases = (
+				5543ADF01A43749100877634 /* Sources */,
+				5543ADF11A43749100877634 /* Frameworks */,
+				5543ADF21A43749100877634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pantograph;
+			productName = Pantograph;
+			productReference = 5543ADF41A43749100877634 /* Pantograph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5543AE061A43749200877634 /* PantographTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5543AE141A43749200877634 /* Build configuration list for PBXNativeTarget "PantographTests" */;
+			buildPhases = (
+				5543AE031A43749200877634 /* Sources */,
+				5543AE041A43749200877634 /* Frameworks */,
+				5543AE051A43749200877634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5543AE091A43749200877634 /* PBXTargetDependency */,
+			);
+			name = PantographTests;
+			productName = PantographTests;
+			productReference = 5543AE071A43749200877634 /* PantographTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5543ADEC1A43749100877634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dave Kennedy";
+				TargetAttributes = {
+					5543ADF31A43749100877634 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5543AE061A43749200877634 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5543ADF31A43749100877634;
+					};
+				};
+			};
+			buildConfigurationList = 5543ADEF1A43749100877634 /* Build configuration list for PBXProject "Pantograph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5543ADEB1A43749100877634;
+			productRefGroup = 5543ADF51A43749100877634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5543ADF31A43749100877634 /* Pantograph */,
+				5543AE061A43749200877634 /* PantographTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5543ADF21A43749100877634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5543ADFF1A43749200877634 /* Images.xcassets in Resources */,
+				5543AE021A43749200877634 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5543AE051A43749200877634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5543ADF01A43749100877634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5543ADFD1A43749200877634 /* main.m in Sources */,
+				5543ADFB1A43749200877634 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5543AE031A43749200877634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5543AE0E1A43749200877634 /* PantographTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5543AE091A43749200877634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5543ADF31A43749100877634 /* Pantograph */;
+			targetProxy = 5543AE081A43749200877634 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5543AE001A43749200877634 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5543AE011A43749200877634 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5543AE0F1A43749200877634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5543AE101A43749200877634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5543AE121A43749200877634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pantograph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5543AE131A43749200877634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Pantograph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5543AE151A43749200877634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PantographTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantograph.app/Contents/MacOS/Pantograph";
+			};
+			name = Debug;
+		};
+		5543AE161A43749200877634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PantographTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pantograph.app/Contents/MacOS/Pantograph";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5543ADEF1A43749100877634 /* Build configuration list for PBXProject "Pantograph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5543AE0F1A43749200877634 /* Debug */,
+				5543AE101A43749200877634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5543AE111A43749200877634 /* Build configuration list for PBXNativeTarget "Pantograph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5543AE121A43749200877634 /* Debug */,
+				5543AE131A43749200877634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5543AE141A43749200877634 /* Build configuration list for PBXNativeTarget "PantographTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5543AE151A43749200877634 /* Debug */,
+				5543AE161A43749200877634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5543ADEC1A43749100877634 /* Project object */;
+}
